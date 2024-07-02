@@ -1,0 +1,143 @@
+(footprint "40mmSpeakerdropin"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "LS1"
+		(at 0.56 -11.05 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "64192a76-4e94-4b6d-98cc-1be8ab65f2e1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Speaker"
+		(at 0.56 -9.55 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "efe2375d-a70e-4c70-b246-f7091af68d0d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Librarythawney:40mmSpeakerdropin"
+		(at 0.56 -10.55 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5f1d1391-f08e-44d8-b483-8e091279a256")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0.56 -10.55 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "62470383-fbc9-4e2d-93cc-e7bf94ce9dcc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0.56 -10.55 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b05671c0-c923-4822-b307-aff04a2be56c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -0.03 0.01)
+		(end 18.97 0.01)
+		(stroke
+			(width 0.5)
+			(type dot)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "4cb8d8be-480b-49c5-98ef-04a22789a786")
+	)
+	(fp_circle
+		(center -0.03 0.01)
+		(end 18.47 0.01)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "94ea8434-3955-4346-821c-ee56c0698720")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.03 2.51 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "162ce0f9-6b3c-4164-8f6c-51ef28e01e65")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -13.5 14.2 180)
+		(size 11.04 5.08)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.2)
+		(chamfer top_right bottom_right)
+		(uuid "e8b67489-871e-4094-849c-4328056aeb7d")
+	)
+	(pad "2" smd roundrect
+		(at 13.3 14.24)
+		(size 11.04 5.08)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.2)
+		(chamfer top_right bottom_right)
+		(uuid "1e4fb1e0-ff54-40b2-8775-c408bc72daec")
+	)
+	(pad "3" smd oval
+		(at -19.03 0.01 180)
+		(size 5.393 2.692)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "3fa1d3be-cf77-4e09-950f-6305d75d6f10")
+	)
+	(pad "3" smd oval
+		(at -0.03 -18.99 90)
+		(size 5.393 2.692)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "e0c21b80-e3c0-4edf-ba5d-eed595cfd5b1")
+	)
+	(pad "3" smd oval
+		(at 18.97 0.01 180)
+		(size 5.393 2.692)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "f896a6ee-485a-412c-9182-072b3cf41e8c")
+	)
+)

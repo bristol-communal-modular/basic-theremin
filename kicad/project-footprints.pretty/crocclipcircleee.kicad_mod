@@ -1,0 +1,143 @@
+(footprint "crocclipcircleee"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Plated Hole as test Point, diameter 5.0mm")
+	(tags "test point plated hole")
+	(property "Reference" "H1"
+		(at 7.34 7.46 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "31d2e34e-8e9c-4602-b107-1b00f7619ca8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CrocClipConnection"
+		(at 3.82 3.128 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "27a28d3e-fde7-49b1-93fb-270ff391b90a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "TestPoint:crocclipcircleee"
+		(at 7 2.5 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e0683dec-aa27-4721-b4c9-c85edf94f21e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -0.154752 2.696649 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "df958621-e238-44d7-9048-d783e3b35fa4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -0.154752 2.696649 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2f8d7784-53f8-4353-9c6f-ffc87830819f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start -0.154752 -3.303351)
+		(end -0.154752 2.696649)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "7c50228f-d15d-475a-a652-5a1c682d6b99")
+	)
+	(fp_line
+		(start -0.154752 -3.303351)
+		(end -0.154752 2.696649)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "B.Cu")
+		(uuid "4eb83fb4-09f4-4ec8-b19d-51d608922e99")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 9 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "3f04d047-f68b-4bea-851b-ca110a535881")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -4.083107 -1.107229 90)
+		(layer "F.Fab")
+		(uuid "da285852-1d84-4c09-8e85-b84dc763d034")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 -3.3)
+		(size 6 6)
+		(drill 5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "35713c56-59f5-45a3-96e3-41d634e8ba3c")
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 17.5 17.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3e7e8745-a1a4-412e-8c80-f03fbe6d33e6")
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 17.5 17.5)
+		(property pad_prop_testpoint)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(uuid "07314c58-ba67-47d0-bb2f-0eb4c0ea288e")
+	)
+	(pad "1" thru_hole circle
+		(at 0 3.3 90)
+		(size 6 6)
+		(drill 5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "88e19502-b951-4bb8-9da6-86ecc87f6c90")
+	)
+)
