@@ -5848,7 +5848,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Battery:BatteryHolder_Eagle_12BH611-GRMODDEDBYROBIN"
+		(property "Footprint" "project-footprints:BatteryHolder_Eagle_12BH611-GRMODDEDBYROBIN"
 			(at 25.4 37.846 90)
 			(effects
 				(font
