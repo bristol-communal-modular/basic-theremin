@@ -8454,7 +8454,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Rumblesan_Standard_Parts:Potentiometer_THT_Bourns_3306P_Vertical"
+		(property "Footprint" "project-footprints:Potentiometer_THT_Bourns_3306P_Vertical"
 			(at 36.83 133.35 90)
 			(effects
 				(font
@@ -9619,7 +9619,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_CuK_OS102011MA1QN1_SPDT_Angled"
+		(property "Footprint" "Button_Switch_THT:SW_Slide_SPDT_Angled_CK_OS102011MA1Q"
 			(at 43.18 31.75 0)
 			(effects
 				(font
