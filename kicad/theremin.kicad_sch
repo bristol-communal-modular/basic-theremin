@@ -2538,7 +2538,7 @@
 					(justify right)
 				)
 			)
-			(property "Footprint" "Rumblesan_Standard_Parts:Potentiometer_THT_Bourns_3306P_Vertical"
+			(property "Footprint" "Rumblesan_Potentiometer_THT:Potentiometer_THT_Bourns_3306P_Vertical"
 				(at -11.43 -1.27 90)
 				(effects
 					(font
@@ -8454,7 +8454,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "project-footprints:Potentiometer_THT_Bourns_3306P_Vertical"
+		(property "Footprint" "Rumblesan_Potentiometer_THT:Potentiometer_THT_Bourns_3306P_Vertical"
 			(at 36.83 133.35 90)
 			(effects
 				(font
