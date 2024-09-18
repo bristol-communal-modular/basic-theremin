@@ -833,6 +833,108 @@
 				)
 			)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Audio:AudioJack2_SwitchT"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3238,6 +3340,12 @@
 		(uuid "47c75220-83ce-48a4-b548-381456efae05")
 	)
 	(junction
+		(at 88.9 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5426cba5-322a-4c60-ad85-1fc6d57a4b4c")
+	)
+	(junction
 		(at 49.53 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3260,6 +3368,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5bdcd2ef-f94c-4efd-aa3b-b7cd39189d8b")
+	)
+	(junction
+		(at 90.17 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62822ad5-0ca4-4a37-85ae-9d884b853f7d")
 	)
 	(junction
 		(at 68.58 156.21)
@@ -3445,7 +3559,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 92.71) (xy 91.44 92.71)
+			(xy 87.63 92.71) (xy 90.17 92.71)
 		)
 		(stroke
 			(width 0)
@@ -3732,6 +3846,16 @@
 			(type default)
 		)
 		(uuid "4247e053-02af-4837-b409-0da205168d70")
+	)
+	(wire
+		(pts
+			(xy 88.9 156.21) (xy 91.44 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45593f6c-e7b1-4568-82e7-a309aaf1417d")
 	)
 	(wire
 		(pts
@@ -4145,6 +4269,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 92.71) (xy 92.71 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9131bc8f-b7fc-4ba0-96fc-f4259c41e4df")
+	)
+	(wire
+		(pts
 			(xy 68.58 148.59) (xy 68.58 156.21)
 		)
 		(stroke
@@ -4275,7 +4409,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 92.71) (xy 105.41 92.71)
+			(xy 100.33 92.71) (xy 105.41 92.71)
 		)
 		(stroke
 			(width 0)
@@ -4455,6 +4589,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 149.86) (xy 88.9 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c86d0cbf-036b-4478-a75c-dd31116121b2")
+	)
+	(wire
+		(pts
 			(xy 260.35 24.13) (xy 260.35 25.4)
 		)
 		(stroke
@@ -4502,6 +4646,16 @@
 			(type default)
 		)
 		(uuid "d8a5d4bc-a040-4a0f-a3e6-9c237cc0f744")
+	)
+	(wire
+		(pts
+			(xy 90.17 86.36) (xy 90.17 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9643080-0cdd-46a4-9aa4-e9c2c74f39ae")
 	)
 	(wire
 		(pts
@@ -4595,7 +4749,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 156.21) (xy 105.41 156.21)
+			(xy 99.06 156.21) (xy 105.41 156.21)
 		)
 		(stroke
 			(width 0)
@@ -4695,7 +4849,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 156.21) (xy 90.17 156.21)
+			(xy 86.36 156.21) (xy 88.9 156.21)
 		)
 		(stroke
 			(width 0)
@@ -6315,7 +6469,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 93.98 156.21 180)
+		(at 95.25 156.21 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6324,7 +6478,7 @@
 		(fields_autoplaced yes)
 		(uuid "3fc3bd23-7cde-40cd-94c1-ff15d4271cde")
 		(property "Reference" "D2"
-			(at 93.98 151.13 0)
+			(at 95.25 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6332,7 +6486,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 93.98 153.67 0)
+			(at 95.25 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6340,7 +6494,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 93.98 156.21 0)
+			(at 95.25 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6349,7 +6503,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 93.98 156.21 0)
+			(at 95.25 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6358,7 +6512,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 93.98 156.21 0)
+			(at 95.25 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6367,7 +6521,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 93.98 156.21 0)
+			(at 95.25 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6376,7 +6530,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 93.98 156.21 0)
+			(at 95.25 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8888,7 +9042,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 95.25 92.71 180)
+		(at 96.52 92.71 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8897,7 +9051,7 @@
 		(fields_autoplaced yes)
 		(uuid "a9f1e779-b25c-4db2-b722-95ce199b4801")
 		(property "Reference" "D1"
-			(at 95.25 87.63 0)
+			(at 96.52 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8905,7 +9059,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 95.25 90.17 0)
+			(at 96.52 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8913,7 +9067,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 95.25 92.71 0)
+			(at 96.52 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8922,7 +9076,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 95.25 92.71 0)
+			(at 96.52 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8931,7 +9085,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 95.25 92.71 0)
+			(at 96.52 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8940,7 +9094,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 95.25 92.71 0)
+			(at 96.52 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8949,7 +9103,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 95.25 92.71 0)
+			(at 96.52 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9773,6 +9927,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 88.9 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be600753-bf81-428d-8d11-3c06203dfc79")
+		(property "Reference" "TP2"
+			(at 91.44 145.2879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 91.44 147.8279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Rumblesan_Standard_Parts:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
+			(at 93.98 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 88.9 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7eea6adc-213e-4706-b356-6855ddb63a1b")
+		)
+		(instances
+			(project "theremin"
+				(path "/5b0acaca-dc50-4fa5-b146-164c1b9ad031"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 57.15 29.21 90)
 		(unit 1)
@@ -10260,6 +10481,73 @@
 			(project "theremin"
 				(path "/5b0acaca-dc50-4fa5-b146-164c1b9ad031"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 90.17 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c83c1eb9-72d4-467f-9de9-fd3584eefe74")
+		(property "Reference" "TP1"
+			(at 92.71 81.7879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 92.71 84.3279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Rumblesan_Standard_Parts:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
+			(at 95.25 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 90.17 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6061d389-564e-4652-9fe2-54352cdd828d")
+		)
+		(instances
+			(project ""
+				(path "/5b0acaca-dc50-4fa5-b146-164c1b9ad031"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -11166,7 +11454,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "ef7cd0ef-03bf-4e17-901a-ef87d72d8a81")
 		(property "Reference" "J3"
 			(at 224.155 132.08 0)
