@@ -5,6 +5,10 @@
 	(uuid "5b0acaca-dc50-4fa5-b146-164c1b9ad031")
 	(paper "A4")
 	(title_block
+		(title "Clara")
+		(date "2024-09-18")
+		(rev "rev2")
+		(company "Bristol Communal Modular")
 		(comment 2 "creativecommons.org/licenses/by/4.0/")
 		(comment 3 "License: CC BY 4.0")
 		(comment 4 "Author: Guy John")
