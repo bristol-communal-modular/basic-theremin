@@ -7279,7 +7279,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 72.39 34.29 90)
 			(effects
 				(font
